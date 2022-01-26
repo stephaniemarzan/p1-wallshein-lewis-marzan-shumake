@@ -1,1 +1,75 @@
 @import "./variables.less";
+
+/*-- Reset Rule --*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*-- Navigation Bar --*/
+
+nav{
+
+    ul li a{
+        font:@nav-link;
+        color: @navy !important;
+        padding-right: 5rem !important;
+        text-align: center;
+    }
+
+    .nav-logo{
+        max-width: 150px;
+        padding-right: 2rem;
+        padding-top: 30px;
+    }
+}
+.nav-logo{
+    max-width: 150px;
+}
+
+/*-- Headings --*/
+
+h1{
+    font: @heading-1;
+    text-align: center;
+    color: @navy;
+    padding: 50px 0 20px;
+}
+
+h2{
+    font: @subheading;
+    text-align: center;
+    color: @navy;
+    padding: 50px 0 30px;
+}
+
+/*-- Home Page --*/
+
+.home-content{
+
+    padding-bottom: 100px;
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/*-- Footer --*/
+
+footer{
+    background-color: @light-blue;
+    height: 90px;
+}
+
+/*-- Media Queries --*/
+
+@media screen and (min-width: 992px) {
+
+    .carousel-home{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+}
