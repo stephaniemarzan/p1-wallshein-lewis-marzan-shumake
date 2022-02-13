@@ -78,15 +78,13 @@ h2 {
 }
 
 .classes {
-  h1,
-  h2,
-  h3 {
+  h1 {
     font: @nav-link;
     color: @navy;
-    padding: 4%;
+    padding: 4% 0 4% 0;
     text-decoration: underline;
-    max-width: 28%;
-    margin: 4%;
+    max-width: 100%;
+    margin: 4% 0 4% 0;
   }
   p {
     font: @body;
@@ -99,7 +97,7 @@ h2 {
 .class-descriptions1,
 .class-descriptions2,
 .class-descriptions3 {
-  width: 30%;
+  width: 100%;
   display: inline-block;
   padding: 3px;
   height: fit-content;
@@ -159,13 +157,16 @@ footer {
     padding-right: 5rem !important;
   }
   .classes {
-    h1,
-    h2,
-    h3 {
+    h1 {
       margin: 1% 22% 2% 22%;
       max-width: 30%;
     }
   }
+.class-descriptions1,
+.class-descriptions2,
+.class-descriptions3 {
+  width: 30%;
+}
 }
 @media screen and (min-width: 992px) {
   .carousel-home {
